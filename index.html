@@ -1,3 +1,4 @@
+<!--Plantilla de HTML-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,14 +6,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My first Web Page</title>
+    <link rel="stylesheet" href="./Styles.css">
 </head>
-<body>
+<body >
+<!--Agregar una imagen-->
+<img src="capterra.png">
+<!--h1 es una etiqueta de mensaje-->   
 <h1>My first etiqueta</h1>
+
 <h2>Karla Gabriela Gomez Sandoval</h2>
-<h3>Este es el avance del codigo </h3>
+<h3>Etiqueta de HTML </h3>
+<h4>Etiqueta de HTML</h4>
+<h5>Etiqueta de HTML</h5>
+<h6>Etiqueta de HTML</h6>
+
+<!--Esto es una etiqueta de parrafo-->
+<p>Esto es un <b>parrafo</b> en HTML
+</p>
+<!--Cuando des click a un botton se ejecuta lo que haya en el action-->
+<form action="">
+<!--Etiqueta de Botton(Submit funciona con action)-->    
+<button type="submit" color="#025157">Karla &#9829;</button>
+</form>
+
+<!--Una Etiqueta de entrada de Texto-->    
+<input type="text"> 
+<!--Salto de linea-->
+<br> 
+<br> 
+<!--Etiqueta de entrada de texto (Correo electronico)-->
+<input type="email"> 
+
+<!--para Crear un formulario
+Se usa la etiqueta form
+se agrega un botton para enviar valores
+El botton estara ligado a el action del form
+asi que se usara el type submit
+-->
+<form action="">
+
+<h6>Nombre</h6>
+<!--placeholder es para tener un texto en el campo de entrada
+required hara que el campo sea obligatorio-->
+<input type="text" required placeholder="Nombre">
+<h6>Apellido</h6>
+<input type="text" required placeholder="Apellido">
+<h6>Edad</h6>
+<input type="number" required placeholder="Edad">
+<h6>Email</h6>
+<input type="email" required placeholder="Correo electronico">
+<h6>Contraseña</h6>
+<input type="password" required placeholder="Contraseña">
+<br>
+<button type="submit" color="#025157">Enviar</button>
 
 
-    
-    
+</form>
+
 </body>
 </html>
