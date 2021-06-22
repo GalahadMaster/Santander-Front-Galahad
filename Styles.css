@@ -14,29 +14,40 @@ font-size: 15px;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 body{
-    background: #ff8bf7;
+    background: #fffbf7;
 }
 button{
     background-color: #025157;
 }
-img{
-   display: block;
-   margin: auto;
-}
+
 .container{
     width: 100% ;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* padding: 0% 0% 0% 0%; */
     position: relative;
 }
-.Logo{
-    width: 20% ;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* padding: 0% 0% 0% 0%; */
-    position: relative; 
+
+.container .btn1{
+    background-color: cadetblue;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #025157;
+}
+
+.banner-1{
+    display: block;
+    margin: auto;
+}
+.btnform{
+    background-color: cadetblue;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #025157; 
+    margin: 1% 1% 1% 0%;
     
 }
