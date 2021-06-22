@@ -19,3 +19,24 @@ body{
 button{
     background-color: #025157;
 }
+img{
+   display: block;
+   margin: auto;
+}
+.container{
+    width: 100% ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 0% 0% 0% 0%; */
+    position: relative;
+}
+.Logo{
+    width: 20% ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 0% 0% 0% 0%; */
+    position: relative; 
+    
+}
