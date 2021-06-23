@@ -1,5 +1,12 @@
 
+* {
+    box-sizing: border-box;
+}
 
+html, body {
+    margin: 0;
+    padding: 0;
+}
 h2{
 color: #46484c;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -31,7 +38,7 @@ font-size: 40px;
     align-items: center;
     justify-content: space-between;
     position: relative;
-    margin: 20px 20px 0 20px;
+    padding: 20px 20px 0 20px;
     font-size: 0;
     font-family: sans-serif;
 }
@@ -60,12 +67,13 @@ font-size: 40px;
     margin: auto;
 }
 .btnform{
-    background-color: cadetblue;
-    border-radius: 30px;
     outline: none;
     border: none;
+    
+    /* padding-bottom: 12px; */
+    padding: 14px 14px 12px 12px;
     cursor: pointer;
-    color: #025157; 
+    color: white;
     margin: 1% 1% 1% 0%;
     
 }
@@ -104,4 +112,59 @@ font-size: 40px;
 .actions > * {
     margin-right: 10px;
     margin-left: 10px;
+}
+.containerpublish .titlepblsh{
+    font-family: 'Alegreya', serif;
+    color: #025157;
+    font-size: 40px;
+    line-height: 48px;
+}
+.containerpublish .paraphpblsh{
+    font-family: sans-serif;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding: 1% 1% 1% 1%;
+
+}
+.containerpublish{
+    position: relative;
+   
+}
+.containerpublish > form p{
+    color: #025157;
+    margin-right: 18px;
+    
+}
+ .btnsmt {
+    outline: none;
+    border: none;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+}
+.promo{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    align-items: center;
+}
+.Plchdlrentmail{
+   padding-top: 12px; 
+   padding-bottom: 12px;
+}
+.divvidcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.divvidcontainer .imagevideo{
+
+    width: 90px;
+    margin-top: 10px;
 }
