@@ -18,6 +18,10 @@ body{
 }
 button{
     background-color: #025157;
+   
+}
+.encabezado{
+    text-align: center;  
 }
 
 .container{
@@ -26,17 +30,30 @@ button{
     align-items: center;
     justify-content: space-between;
     position: relative;
+    margin: 20px 20px 0 20px;
+    font-size: 0;
+    font-family: sans-serif;
 }
 
 .container .btn1{
-    background-color: cadetblue;
-    border-radius: 20px;
+    background-color: #67b54b;
+    border-radius: 5px;
     outline: none;
     border: none;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     cursor: pointer;
-    color: #025157;
+    color: white;
+   
 }
-
+.parrafo1{
+    text-align: center;    
+}
+.etiquetah4{
+    text-align: center;   
+}
 .banner-1{
     display: block;
     margin: auto;
@@ -50,4 +67,39 @@ button{
     color: #025157; 
     margin: 1% 1% 1% 0%;
     
+}
+.container .menu li{
+    display: inline;
+}
+.container >*{
+    display: inline-block;
+    font-size: 18px;
+}
+.logo{
+    width: 150%;
+}
+
+.logo img{
+    height: 100%;
+}
+.menu{
+    width: 70%;
+    text-align: center;
+    /* text-align: left; */
+    color: #025157;
+    font-weight: 500; 
+    font-size: 14px;
+    
+}
+.actions{
+    width: 15%;
+    text-align: right;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600; 
+    
+}
+.actions > * {
+    margin-right: 10px;
+    margin-left: 10px;
 }
