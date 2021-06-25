@@ -147,6 +147,7 @@ font-size: 40px;
     cursor: pointer;
     color: white;
     border-radius: 5px;
+    
 }
 .promo{
     display: flex;
@@ -167,4 +168,74 @@ font-size: 40px;
 
     width: 90px;
     margin-top: 10px;
+}
+.features{
+    display: grid;
+/* grid-template-columns: 100px 300px; */
+/* grid-template-columns: repeat(2, 300px) ; */
+/* grid-template-columns: 500px 1fr; */
+/* grid-template-columns: 1fr 1fr; */
+/* grid-template-columns: repeat(2, 330px); */
+/* grid-template-rows: 660px 2fr; */
+/* grid-template: repeat(2, 330px) / repeat(2, 1fr); */
+/* grid-template: repeat(2, 1fr) / repeat(2, 330px); */
+    background-color: #025157;
+    padding: 5% 10%;
+   grid-template-columns: repeat(2, 50%);
+    margin-top: 10px;
+   flex-direction: repeat(2);
+   width: 100%;
+   overflow: hidden;
+
+
+
+}
+.features .cntnr1{
+    background-color: lightcyan;
+    margin: 10px;
+    width: 80%;
+    height: 100px;
+    
+
+}
+
+.features .cntnr2{
+    background-color: lightcyan;
+    margin: 10px;
+    width: 80%;
+    height: 100px;
+    
+
+}
+
+.features .cntnr3{
+    background-color: lightcyan;
+    margin: 10px;
+    width: 80%;
+    height: 100px;
+    
+
+}
+
+.features .cntnr3{
+    background-color: lightcyan;
+    margin: 10px;
+    width: 80%;
+    height: 100px;
+    
+
+}
+.features .images-cont{
+    width: 20%;
+    height: 30px; 
+}
+/* .containerart{
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+    width: 50%;
+    overflow: hidden;
+} */
+.cntnr{
+    overflow: hidden;
 }
