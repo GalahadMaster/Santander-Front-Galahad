@@ -238,28 +238,74 @@ font-size: 40px;
     height: 100%;
   }
   .features2{
-      /* display: grid; */
-      background-color: #fffbf7;
+    display: grid;
+    width: 100%;
+    align-items: stretch;
+      background-color: #cea573;
       text-align: center;
       padding: 5% 10%;
+      align-items: center;
+      height: auto;
      /* grid-template-columns:repeat(4, 330px) ; */
-     margin-bottom: 30px;
-    margin-left: 15px;
-    margin-right: 15px;
+    
+    
   }
- .Steps {
-    display: grid;
-    /* grid-gap: 20px; */
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  background-color: #fff;
-  border: 1px solid #dadada;
-  border-radius: 5px;
-  margin-left: 20px;
-  margin-right: 20px;
-  text-align: left;
-
-  /* grid-template-columns: repeat(4, 1fr); */
  
+ .features2 .steps {
+    display: grid;
+    width: 900px
+    box-sizing: border-box;
+    
+
+    
+  grid-template-columns: repeat(4, .2fr);
+  background-color: #fff;
+  /* border: 1px solid #dadada; */
+  
+  /* margin-left: 20px; */
+  /* margin-right: 20px; */
+  /* text-align: center; */
+  /* overflow: hidden; */
+
+   
+ 
+ }
+ .steps .features2-cards{
+    padding: 30px 20px 40px 40px;
+    flex: 4;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgb(155, 89, 89)129, 48, 48)129, 48, 48);
+   overflow: hidden;
+
+
+
+ }
+ .features2 .divbtn {
+    align-items: center;
+ }
+ .features2 .buttonsection{
+    /* background-color: #67b54b;
+    width: 300px;
+
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    cursor: pointer;
+    color: white; */
+    
+    width: 300px;
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 12px 12px 6px 12px;
+    height: 45px;
+    margin-left: 0;
+    border-radius: 8px;
+    margin-top: 6px;
  }
  .Steps .features2-cards{
     position: relative;
